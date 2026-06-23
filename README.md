@@ -1,41 +1,41 @@
-Crewfare Backend
+Crewfare Backend:
+Backend for the Crewfare project, responsible for receiving, saving, listing, updating, and deleting events.
 
-Backend do projeto Crewfare, responsável por receber, salvar, listar, atualizar e excluir eventos.
-
-->Tecnologias
+-> Technologies
 - NestJS
 - TypeScript
 - MongoDB
 - Mongoose
 - Multer
 
-->Funcionalidades
-- Criar eventos
-- Receber e salvar banner do evento
-- Listar todos os eventos cadastrados
-- Buscar evento por ID
-- Atualizar evento existente
-- Excluir evento
-- Servir imagens salvas localmente na pasta `uploads`
+-> Features
+- Create events
+- Receive and save the event banner
+- List all registered events
+- Search for an event by ID
+- Update an existing event
+- Delete an event
+- Serve images saved locally in the `uploads` folder
 
-->Pré-requisitos
-Antes de rodar o backend, é necessário ter instalado:
+-> Prerequisites
+Before running the backend, make sure you have installed:
 - Node.js
 - npm
 - MongoDB
 
-O MongoDB precisa estar rodando localmente.
+MongoDB must be running locally.
 
-A aplicação usa a seguinte conexão:
+The application uses the following connection:
+
 ```txt
 mongodb://localhost:27017/crewfare
 
-->Como rodar o projeto:
--instale no vscode npm install;
--inicie o servidor do backend: npm run start:dev;
--o backend ficará disponível em: http://localhost:3000.
--o frontend consome a API do backend em: http://localhost:3000/events.
+->How to Run the Project:
+-Install the dependencies: npm install.
+-Start the backend server:npm run start:dev;
+-The backend will be available at:http://localhost:3000.
+The frontend consumes the backend API at: http://localhost:3000/events
 
--> O backend é consumido pelo frontend do projeto Crewfare, para usar o sistema completo, rode:
+->This backend is consumed by the Crewfare frontend.To use the full system, run:
 Backend: http://localhost:3000
 Frontend: http://localhost:5173
